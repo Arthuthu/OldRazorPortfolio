@@ -1,15 +1,15 @@
 ﻿nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 20px;
+    margin-left: 65px;
+    margin-bottom: 50px;
     background-color: #FFFFFF;
 }
 
 .nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 20%;
+
 }
 
 nav ul {
@@ -45,6 +45,14 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+    .projetos a {
+        color: #0CACF0;
+    }
+
+    .projetos a:hover {
+        text-decoration: none;
+    }
+
 .habilidades{
     list-style: none;
 }
@@ -72,4 +80,50 @@ nav a:hover {
         align-content: start;
         display: flex;
         margin-left: 20px;
+    }
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.whatsapp h5 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .email h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+.github {
+    margin-bottom: 10px;
+}
+
+    .github a {
+        color: #0CACF0;
+    }
+
+        .github a:hover {
+            text-decoration: none;
+        }
+
+.linkedin {
+    margin-bottom: 10px;
+}
+
+    .linkedin a {
+        color: #0CACF0;
+    }
+
+    .linkedin a:hover {
+        text-decoration: none;
     }
