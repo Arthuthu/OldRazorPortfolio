@@ -45,14 +45,8 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-.habilidades {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.habilidades h4 {
-    text-align: left;
-    margin-top: 20px;
+.habilidades{
+    list-style: none;
 }
 
 .objetivos {
@@ -69,4 +63,13 @@ nav a:hover {
         margin-top: 20px;
         text-align: left;
     }
-    
+
+.projetos {
+    margin-top: 20px;
+}
+
+    .projetos h4 {
+        align-content: start;
+        display: flex;
+        margin-left: 20px;
+    }
