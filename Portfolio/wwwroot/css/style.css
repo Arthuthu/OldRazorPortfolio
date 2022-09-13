@@ -42,6 +42,66 @@ nav a:hover {
     font-size: 35px;
     }
 
+/*Footer*/
+.contato {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.contatoLabel {
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .whatsapp h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .email h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+.github {
+    margin-bottom: 10px;
+}
+
+    .github a {
+        color: #0CACF0;
+    }
+
+        .github a:hover {
+            text-decoration: none;
+        }
+
+.linkedin {
+    margin-bottom: 10px;
+}
+
+    .linkedin a {
+        color: #0CACF0;
+    }
+
+        .linkedin a:hover {
+            text-decoration: none;
+        }
 
 /*Index*/
 
@@ -78,6 +138,11 @@ nav a:hover {
     padding-left: 90px;
 }
 
+.artGStore {
+    padding-left: 135px;
+    padding-right: 70px;
+}
+
 .projetosNomeFim {
     padding-left: 90px;
 }
@@ -88,52 +153,6 @@ nav a:hover {
     margin-left: 20px;
     margin-top: 10px;
 }
-
-.whatsapp {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.whatsapp h5 {
-    margin-top: 5px;
-    margin-left: 10px;
-}
-
-.email {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-    .email h5 {
-        margin-top: 5px;
-        margin-left: 10px;
-    }
-
-.github {
-    margin-bottom: 10px;
-}
-
-    .github a {
-        color: #0CACF0;
-    }
-
-        .github a:hover {
-            text-decoration: none;
-        }
-
-.linkedin {
-    margin-bottom: 10px;
-}
-
-    .linkedin a {
-        color: #0CACF0;
-    }
-
-    .linkedin a:hover {
-        text-decoration: none;
-    }
 
 .pizzariaImagensIndex {
     height: 200px;
@@ -147,7 +166,7 @@ nav a:hover {
 
 /* Pizzaria */
 
-.pizzaria {
+.layout {
     margin-bottom: 30px;
     text-align: center;
 }
