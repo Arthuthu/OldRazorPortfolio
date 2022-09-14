@@ -147,8 +147,17 @@ nav a:hover {
     padding-left: 140px;
 }
 
-.projetosNomeFim {
-    padding-left: 90px;
+.demosLabel {
+    padding-left: 65px;
+    padding-right: 60px;
+}
+
+.quintoProjeto{
+    padding-left: 150px;
+}
+
+.sextoProjeto {
+    padding-left: 200px;
 }
 
 .projetosImg {
@@ -158,7 +167,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.pizzariaImagensIndex {
+.ImagensIndex {
     height: 200px;
     width: 320px;
 }
