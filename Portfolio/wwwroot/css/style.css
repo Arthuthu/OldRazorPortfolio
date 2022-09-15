@@ -6,7 +6,7 @@
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 20px;
     margin-left: 65px;
@@ -15,7 +15,9 @@ nav {
 }
 
 .nav-links{
-
+    display: flex;
+    padding-right: 200px;
+    margin-top: 3px;
 }
 
 nav ul {
@@ -24,12 +26,20 @@ nav ul {
 
     nav ul li a {
         font-size: 30px;
+        color: #FFFFFF;
         text-decoration: none;
+        margin-left: 40px;
+        font-size: 30px;
     }
 
 nav a:hover {
+    transition: 0.5s;
     color: #0CACF0;
     text-decoration: none;
+}
+
+.logo {
+    padding-left: 200px;
 }
 
 .logo a {
@@ -38,6 +48,7 @@ nav a:hover {
 }
 
 .logo a:hover {
+    transition: 0.5s;
     color: #0CACF0;
 }
 
@@ -305,6 +316,19 @@ nav a:hover {
     color: #FFFFFF;
 }
 
+.temaDiv {
+    display: inline;
+    align-items: center;
+}
+
+    .temaDiv a {
+        font-size: 30px;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
 /* Projetos */
 
 .layout {
@@ -349,5 +373,3 @@ nav a:hover {
 .tecnologias {
     color: #FFFFFF;
 }
-
-
