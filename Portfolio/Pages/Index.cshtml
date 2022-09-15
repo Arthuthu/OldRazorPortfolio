@@ -4,13 +4,13 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="projetosLabel">
+<div class="projetos">
     <h2>Meus projetos</h2>
 
     <div class="projetos">
-        <div class="projetosNome">
-            <h4>
-                <a asp-page="/Pizzaria">Topicos II (Pizzaria)</a>
+        <div class="projetosLabel">
+            <h4 class="pizzariaLabel">
+                <a asp-page="/Pizzaria">Pizzaria</a>
             </h4>
 
             <h4 class="artGStore">
@@ -33,12 +33,11 @@
             <a asp-page="/ToDoUI">
                 <img class="ImagensIndex" src="~/img/ToDoUI/Index.png"/>
             </a>
-
         </div>
     </div>
 
     <div class="projetos">
-        <div class="projetosNome">
+        <div class="projetosLabel">
             <h4  class="demosLabel">
                 <a asp-page="/Demos">Demos</a>
             </h4>
@@ -70,8 +69,8 @@
 <hr/>
 
 <div>
-    <h2 class="linguagensLabel">Meus conhecimentos</h2>
-    <div class="habilidades">
+    <h2 class="linguagensLabel">Conhecimentos</h2>
+    <div class="conhecimentos">
         <ul>
             <li>
                 <h5>C#</h5>

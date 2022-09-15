@@ -1,4 +1,8 @@
-﻿/*Nav*/
+﻿*, body {
+    background: #0f131a;
+}
+
+/*Nav*/
 
 nav {
     display: flex;
@@ -7,7 +11,7 @@ nav {
     margin: 20px;
     margin-left: 65px;
     margin-bottom: 50px;
-    background-color: #FFFFFF;
+    background-color: #0f131a;
 }
 
 .nav-links{
@@ -19,7 +23,6 @@ nav ul {
 }
 
     nav ul li a {
-        color: #000000;
         font-size: 30px;
         text-decoration: none;
     }
@@ -29,8 +32,8 @@ nav a:hover {
     text-decoration: none;
 }
 
-.logo a{
-    color: #000000;
+.logo a {
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -50,7 +53,7 @@ nav a:hover {
 }
 
 .contatoLabel {
-    color: black;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 20px;
@@ -68,6 +71,10 @@ nav a:hover {
         margin-left: 10px;
     }
 
+.whatsappLabel {
+    color: #FFFFFF;
+}
+
 .email {
     display: flex;
     align-items: center;
@@ -78,6 +85,10 @@ nav a:hover {
         margin-top: 5px;
         margin-left: 10px;
     }
+
+.emailLabel {
+    color: #FFFFFF;
+}
 
 .github {
     margin-bottom: 10px;
@@ -105,11 +116,6 @@ nav a:hover {
 
 /*Index*/
 
-.projetosLabel h2 {
-    text-align: center;
-    padding-bottom: 15px;
-}
-
 .projetos {
     text-align: center;
     margin-top: 40px;
@@ -124,40 +130,37 @@ nav a:hover {
             text-decoration: none;
         }
 
-.projetos h4 {
-    align-content: start;
-    display: flex;
-    margin-left: 80px;
+.projetos h2 {
+    color: #FFFFFF;
 }
 
-.projetosNome {
+.projetosLabel {
     display: flex;
+    justify-content: start;
 }
 
-.projetosNomeMeio {
-    padding-left: 90px;
+.pizzariaLabel {
+    padding-left: 135px;
 }
 
 .artGStore {
-    padding-left: 135px;
-    padding-right: 70px;
+    padding-left: 290px;
 }
 
 .toDoUI {
-    padding-left: 140px;
+    padding-left: 290px;
 }
 
 .demosLabel {
-    padding-left: 65px;
-    padding-right: 60px;
+    padding-left: 135px; 
 }
 
-.quintoProjeto{
-    padding-left: 150px;
+.quintoProjeto {
+    padding-left: 300px;
 }
 
 .sextoProjeto {
-    padding-left: 200px;
+    padding-left: 290px;
 }
 
 .projetosImg {
@@ -175,6 +178,11 @@ nav a:hover {
 .linguagensLabel {
     text-align: center;
     margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.conhecimentos {
+    color: #FFFFFF;
 }
 
 .voltarButton a {
