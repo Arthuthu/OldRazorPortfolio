@@ -1,12 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Portfolio</title>
+    <title>Portfolio - Arthur</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico">
+
 </head>
+
 <body>
     <header>
         <nav>
@@ -30,36 +34,64 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            
-
-<div class="contatoLabel">
-		<h2> Contato </h2>
-</div>
-<div class="contato">
-    <div class="whatsapp">
-        <h3 class="whatsappLabel">Whatsapp:</h3> <h5>(17)99782-4891</h5>
-    </div>
-
-    <div class="email">
-        <h3 class="emailLabel">Email:</h3> <h5>arthurgeromello@hotmail.com</h5>
-    </div>
-
-	<div class="github">
-        <h3><a href="https://github.com/Arthuthu">Github</a></h3>
-    </div>		
-
-	<div class="linkedin">
-        <h3><a href="https://www.linkedin.com/in/arthur-geromello-ab44a8159/">Linkedin</a></h3>
-    </div>	
-</div>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        
+        <div class="contatoLabel">
+	        <h2>Contato</h2>
         </div>
-    </footer>
+
+        <div class="contato">
+            <div class="whatsapp">
+                <div>
+                    <i class="fa-brands fa-whatsapp fa-2x"></i>
+                </div>
+
+                <div class="whatsappInfo">
+                    <h3 class="whatsappLabel">Whatsapp:</h3> <h5>(17)99782-4891</h5>
+                </div>
+            </div>
+
+            <div class="email">
+                <div>
+                    <i class="fa-solid fa-envelope fa-2x"></i>
+                </div>
+
+                <div class="emailInfo">
+                    <h3 class="emailLabel">Email:</h3> <h5>arthurgeromello@hotmail.com</h5>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contato">
+	        <div class="github">
+                <div>
+                     <i class="fa-brands fa-github fa-2x"></i>
+                </div>
+
+                <div class="githubInfo">
+                    <h3><a href="https://github.com/Arthuthu">Github</a></h3>
+                </div>
+            </div>		
+
+	        <div class="linkedin">
+                <div>
+                    <i class="fa-brands fa-linkedin fa-2x"></i> 
+                </div>
+
+                <div class="linkedinInfo">
+                    <h3><a href="https://www.linkedin.com/in/arthur-geromello-ab44a8159/">Linkedin</a></h3>
+                </div>
+            </div>	
+        </div>
+    </div>
+</footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/a077060aed.js" crossorigin="anonymous"></script>
 
     @RenderSection("Scripts", required: false)
 </body>

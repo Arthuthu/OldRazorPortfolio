@@ -48,7 +48,8 @@ nav a:hover {
 /*Footer*/
 .contato {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -62,8 +63,10 @@ nav a:hover {
 
 .whatsapp {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     margin-bottom: 10px;
+    padding-left: 165px;
+    padding-right: 150px;
 }
 
     .whatsapp h5 {
@@ -72,11 +75,17 @@ nav a:hover {
     }
 
 .whatsappLabel {
+    padding-left:10px;
     color: #FFFFFF;
+}
+
+.whatsappInfo {
+    display: flex;
 }
 
 .email {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -90,8 +99,17 @@ nav a:hover {
     color: #FFFFFF;
 }
 
+.emailInfo {
+    display: flex;
+    padding-left: 5px;
+}
+
 .github {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
+    padding-left: 260px;
+    padding-right: 360px;
 }
 
     .github a {
@@ -102,7 +120,13 @@ nav a:hover {
             text-decoration: none;
         }
 
+.githubInfo {
+    padding-left: 5px;
+}
+
 .linkedin {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
@@ -113,6 +137,10 @@ nav a:hover {
         .linkedin a:hover {
             text-decoration: none;
         }
+
+.linkedinInfo{
+    padding-left: 5px;
+}
 
 /*Index*/
 
@@ -225,19 +253,29 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
-.imagensLabel{
+.imagensLabel {
     text-align: center;
     margin-top: 50px;
+    color: #FFFFFF;
 }
 
-/* Pizzaria */
+/* Projetos */
+
 .layout {
     margin-bottom: 30px;
     text-align: center;
 }
 
+.layout h3 {
+    color: #FFFFFF;
+}
+
 .descricao {
     margin-bottom: 30px;
+}
+
+.descricao h3 {
+    color: #FFFFFF;
 }
 
 .imagens {
@@ -247,15 +285,21 @@ nav a:hover {
     margin-top: 20px;
 }
 
-.githubPizzaria {
+.githubLink {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.githubPizzaria a {
-    color: #0CACF0;
+    .githubLink a {
+        color: #0CACF0;
+    }
+
+        .githubLink a:hover {
+            text-decoration: none;
+        }
+
+.tecnologias {
+    color: #FFFFFF;
 }
 
-    .githubPizzaria a:hover {
-        text-decoration: none;
-    }
+/* Icones */
