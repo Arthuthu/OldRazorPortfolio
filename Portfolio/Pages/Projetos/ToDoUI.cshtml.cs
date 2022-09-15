@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Portfolio.Pages
+namespace Portfolio.Pages.Projetos
 {
-    public class PizzariaModel : PageModel
+    public class ToDoUIModel : PageModel
     {
         public void OnGet()
         {
