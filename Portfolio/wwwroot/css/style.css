@@ -118,6 +118,8 @@ nav a:hover {
 
         .github a:hover {
             text-decoration: none;
+            transition: 0.5s;
+            color: #FFFFFF;
         }
 
 .githubInfo {
@@ -136,6 +138,8 @@ nav a:hover {
 
         .linkedin a:hover {
             text-decoration: none;
+            transition: 0.5s;
+            color: #FFFFFF;
         }
 
 .linkedinInfo{
@@ -171,24 +175,54 @@ nav a:hover {
     padding-left: 135px;
 }
 
+    .pizzariaLabel a:hover {
+        transition: 0.5s;
+        color: #FFFFFF;
+    }
+
 .artGStore {
     padding-left: 290px;
 }
+
+    .artGStore a:hover {
+        transition: 0.5s;
+        color: #FFFFFF;
+    }
 
 .toDoUI {
     padding-left: 290px;
 }
 
-.demosLabel {
+.toDoUI a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+
+.demos {
     padding-left: 135px; 
+}
+
+.demos a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
 }
 
 .quintoProjeto {
     padding-left: 300px;
 }
 
+.quintoProjeto a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+
 .sextoProjeto {
-    padding-left: 290px;
+    padding-left: 280px;
+}
+
+.sextoProjeto a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
 }
 
 .projetosImg {
@@ -228,6 +262,12 @@ nav a:hover {
     margin-top: 40px;
 }
 
+        .voltarButton a:hover {
+        transition: 0.5s;
+        background: #FFFFFF;
+        color: #33C7FF;
+    }
+
 #toggleButton {
     height: 50px;
     width: 100px;
@@ -242,6 +282,12 @@ nav a:hover {
     align-items: center;
     margin-top: 20px;
 }
+
+    #toggleButton:hover {
+        transition: 0.5s;
+        background: #FFFFFF;
+        color: #33C7FF;
+    }
 
 #toggleButton:focus {
     outline: none;
@@ -296,10 +342,12 @@ nav a:hover {
 
         .githubLink a:hover {
             text-decoration: none;
+            transition: 0.5s;
+            color: #FFFFFF;
         }
 
 .tecnologias {
     color: #FFFFFF;
 }
 
-/* Icones */
+
