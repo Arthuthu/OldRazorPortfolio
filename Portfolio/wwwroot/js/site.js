@@ -1,4 +1,18 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿//Botão mostrar/esconder imagens
 
-// Write your Javascript code.
+const toggleButton = document.querySelector('#toggleButton');
+const divList = document.querySelector('.listaDeImagens');
+divList.style.display = 'none';
+divList.style.border = 'none';
+
+toggleButton.addEventListener('click', () => {
+    if (divList.style.display == 'none') {
+        divList.style.display = 'block';
+        toggleButton.innerHTML = 'Esconder';
+    }
+    else
+    {
+        divList.style.display = 'none';
+        toggleButton.innerHTML = 'Mostrar';
+    }
+});

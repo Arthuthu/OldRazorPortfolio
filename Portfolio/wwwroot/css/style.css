@@ -192,8 +192,37 @@ nav a:hover {
     margin-top: 40px;
 }
 
-/* Pizzaria */
+#toggleButton {
+    height: 50px;
+    width: 100px;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: #33C7FF;
+    border-radius: 5px;
+    padding: 0 14px;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+}
 
+#toggleButton:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.toggleButtonDiv {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imagensLabel{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Pizzaria */
 .layout {
     margin-bottom: 30px;
     text-align: center;
