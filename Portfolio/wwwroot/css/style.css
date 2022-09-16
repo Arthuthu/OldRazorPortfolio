@@ -1,5 +1,15 @@
-﻿*, body {
+﻿*, body, nav {
     background: #0f131a;
+}
+
+/* Light mode */
+
+body.light{
+    background: #FFFFFF;
+}
+
+nav.light {
+    background: #FFFFFF;
 }
 
 /*Nav*/
@@ -11,7 +21,6 @@ nav {
     margin: 20px;
     margin-left: 65px;
     margin-bottom: 50px;
-    background-color: #0f131a;
 }
 
 .nav-links{

@@ -1,7 +1,7 @@
 ﻿//Botão mostrar/esconder imagens
 
-const toggleButton = document.querySelector('#toggleButton');
-const divList = document.querySelector('.listaDeImagens');
+let toggleButton = document.querySelector('#toggleButton');
+let divList = document.querySelector('.listaDeImagens');
 divList.style.display = 'none';
 divList.style.border = 'none';
 

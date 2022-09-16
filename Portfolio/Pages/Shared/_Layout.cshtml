@@ -34,10 +34,12 @@
                         </h3>
                     </li>
                 </ul>
-                <div class="temaDiv">
-                    <i class="fa-solid fa-sun fa-2x"></i>
-                    <a asp-area="" asp-page="/Index">Tema</a>
-                </div>
+@*                <div class="temaDiv">
+                    <i class="bi bi-brightness-high-fill"></i>
+                    	<button type="button" id="lightButton" class="btn-primary">
+		                    Tema
+	                    </button>
+                </div>*@
             </div>
         </nav>
     </header>
@@ -104,6 +106,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/dark-light-mode.js" asp-append-version="true"></script>
     <script src="https://kit.fontawesome.com/a077060aed.js" crossorigin="anonymous"></script>
 
     @RenderSection("Scripts", required: false)
