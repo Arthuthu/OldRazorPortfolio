@@ -1,0 +1,119 @@
+﻿/* nav-links */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    padding-right: 0;
+}
+
+nav ul li a {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.nav-links {
+    padding-right: 0;
+}
+
+
+.logo {
+    padding: 0;
+}
+
+.bio-label {
+    padding-left: 10px;
+}
+
+/*Index*/
+
+.projetosItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artGStore {
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.toDoUI {
+    padding-left: 0px;
+}
+
+.quintoProjeto {
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sextoProjeto {
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+
+ul {
+    padding-top: 20px;
+    list-style: none;
+}
+
+ul li h5{
+    text-align: center;
+}
+
+/* Projetos */
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout {
+    padding-top: 20px;
+}
+
+/* Footer */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatsapp {
+    padding: 0;
+}
+
+.email {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github {
+    padding: 0;
+}
+
+.linkedin {
+    padding-top: 5px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

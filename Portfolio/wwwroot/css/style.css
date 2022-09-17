@@ -186,13 +186,9 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-.projetosLabel {
+.projetosItems {
     display: flex;
     justify-content: start;
-}
-
-.pizzariaLabel {
-    padding-left: 135px;
 }
 
     .pizzariaLabel a:hover {
@@ -201,7 +197,7 @@ nav a:hover {
     }
 
 .artGStore {
-    padding-left: 290px;
+    padding-left: 80px;
 }
 
     .artGStore a:hover {
@@ -210,16 +206,12 @@ nav a:hover {
     }
 
 .toDoUI {
-    padding-left: 290px;
+    padding-left: 80px;
 }
 
 .toDoUI a:hover {
     transition: 0.5s;
     color: #FFFFFF;
-}
-
-.demos {
-    padding-left: 135px; 
 }
 
 .demos a:hover {
@@ -228,7 +220,7 @@ nav a:hover {
 }
 
 .quintoProjeto {
-    padding-left: 300px;
+    padding-left: 80px;
 }
 
 .quintoProjeto a:hover {
@@ -237,19 +229,12 @@ nav a:hover {
 }
 
 .sextoProjeto {
-    padding-left: 280px;
+    padding-left: 80px;
 }
 
 .sextoProjeto a:hover {
     transition: 0.5s;
     color: #FFFFFF;
-}
-
-.projetosImg {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-top: 10px;
 }
 
 .ImagensIndex {
