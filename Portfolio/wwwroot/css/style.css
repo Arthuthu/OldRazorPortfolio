@@ -1,4 +1,4 @@
-﻿*, body, nav {
+﻿body, nav {
     background: #0f131a;
 }
 
@@ -8,7 +8,11 @@ body.light{
     background: #FFFFFF;
 }
 
-nav.light {
+.logo.light {
+    background: #FFFFFF;
+}
+
+.nav-links.light {
     background: #FFFFFF;
 }
 
