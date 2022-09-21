@@ -38,6 +38,10 @@ nav ul li a {
 
 /*Index*/
 
+.conhecimentos ul {
+    padding: 0;
+}
+
 .projetosItems {
     display: flex;
     flex-direction: column;
