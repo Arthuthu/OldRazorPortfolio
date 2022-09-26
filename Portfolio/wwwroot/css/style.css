@@ -41,14 +41,61 @@ body.light .tecnologias h5 {
     color: black;
 }
 
+body.light .projetos h2 {
+    color: black;
+}
+
+body.light .contatoLabel h2 {
+    color: black;
+}
+
 body.light #lightButton {
     background: white;
     color: black;
 }
 
+body.light .pizzariaLabel a:hover {
+    color: #000000;
+}
+
+body.light .artGStore a:hover {
+    color: #000000;
+}
+
+body.light .toDoUI a:hover {
+    color: #000000;
+}
+
+body.light .demos a:hover {
+    color: #000000;
+}
+
+body.light .quintoProjeto a:hover {
+    color: #000000;
+}
+
+body.light .sextoProjeto a:hover {
+    color: #000000;
+}
+
+body.light .linkedin a:hover {
+    color: #000000;
+}
+
+body.light .github a:hover {
+    color: #000000;
+}
+
+body.light .imagensLabel h2 {
+    color: #000000;
+}
+
+body.light .githubLink a:hover {
+    color: #000000;
+}
+
 
 /*Nav*/
-
 nav {
     display: flex;
     justify-content: space-between;
