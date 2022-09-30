@@ -26,7 +26,7 @@ body.light #texto h2{
     color: #000000;
 }
 
-body.light #texto h {
+body.light #texto h3 {
     color: #000000;
 }
 
@@ -300,6 +300,8 @@ nav a:hover {
 }
 
 .conhecimentos {
+    margin: 2rem 0 0 0;
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -310,7 +312,7 @@ nav a:hover {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    background: #33C7FF;
+    background-image: linear-gradient(#1FABA5, #02211F);
     border-radius: 5px;
     padding: 0 14px;
     border: none;
@@ -331,7 +333,7 @@ nav a:hover {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    background: #33C7FF;
+    background-image: linear-gradient(#2135DB, #070D39);
     border-radius: 5px;
     padding: 0 14px;
     border: none;
@@ -403,5 +405,6 @@ nav a:hover {
         }
 
 .tecnologias {
+    text-align: center;
     color: #FFFFFF;
 }
