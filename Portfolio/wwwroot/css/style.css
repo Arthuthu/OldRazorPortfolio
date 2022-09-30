@@ -1,5 +1,5 @@
 ﻿body {
-    background: #0f131a;
+    background-image: linear-gradient(#02041A, #000000);
 }
 
 /* Light mode */
@@ -48,9 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
-    margin-left: 65px;
-    margin-bottom: 50px;
+    margin: 1.25rem 1.25rem 3.125rem 4rem;
 }
 
 .nav-links{
@@ -74,15 +72,14 @@ nav ul {
 /* Theme button */
 
 #light-button {
+    background: transparent;
     height: 40px;
     width: 55px;
     color: white;
-    background: #0f131a;
-    font-weight: bold;
     text-decoration: none;
     border: none;
     align-items: center;
-    margin-left: 40px;
+    margin: 0.5rem 0 0 40px;
 }
 
 #light-button:hover {

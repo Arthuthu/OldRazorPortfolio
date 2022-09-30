@@ -1,18 +1,19 @@
 ﻿//Botão mostrar/esconder imagens
 
 let toggle = document.querySelector('#toggle-button');
-let divList = document.querySelector('.lista-de-imagens');
-divList.style.display = 'none';
-divList.style.border = 'none';
+let imagens = document.querySelector('.lista-de-imagens');
+imagens.style.display = 'none';
+imagens.style.border = 'none';
 
 toggle.addEventListener('click', () => {
-    if (divList.style.display == 'none') {
-        divList.style.display = 'block';
+    if (imagens.style.display == 'none') {
+        imagens.style.transition = '500ms';
+        imagens.style.display = 'block';
         toggle.innerHTML = 'Esconder';
     }
     else
     {
-        divList.style.display = 'none';
+        imagens.style.display = 'none';
         toggle.innerHTML = 'Mostrar';
     }
 });
