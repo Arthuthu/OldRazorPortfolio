@@ -6,91 +6,39 @@
 
 body.light{
     background: #FFFFFF;
-    color: black;
+    color: #000000;
 }
 
 body.light a {
-    color: black;
+    color: #000000;
 }
 
 body.light ul li {
-    color: black;
+    color: #000000;
 }
 
-body.light .linguagensLabel {
-    color: black;
-}
-
-body.light .whatsappLabel {
-    color: black;
-}
-
-body.light .emailLabel {
-    color: black;
-}
-
-body.light .layout h3 {
-    color: black;
-}
-
-body.light .descricao h3 {
-    color: black;
-}
-
-body.light .tecnologias h5 {
-    color: black;
-}
-
-body.light .projetos h2 {
-    color: black;
-}
-
-body.light .contatoLabel h2 {
-    color: black;
-}
-
-body.light #lightButton {
+body.light #light-button {
     background: white;
-    color: black;
-}
-
-body.light .pizzariaLabel a:hover {
     color: #000000;
 }
 
-body.light .artGStore a:hover {
+body.light #texto h2{
     color: #000000;
 }
 
-body.light .toDoUI a:hover {
+body.light #texto h {
     color: #000000;
 }
 
-body.light .demos a:hover {
+body.light #texto h5 {
     color: #000000;
 }
 
-body.light .quintoProjeto a:hover {
+body.light #texto{
     color: #000000;
 }
 
-body.light .sextoProjeto a:hover {
-    color: #000000;
-}
-
-body.light .linkedin a:hover {
-    color: #000000;
-}
-
-body.light .github a:hover {
-    color: #000000;
-}
-
-body.light .imagensLabel h2 {
-    color: #000000;
-}
-
-body.light .githubLink a:hover {
+body.light #texto a:hover {
     color: #000000;
 }
 
@@ -125,7 +73,7 @@ nav ul {
 
 /* Theme button */
 
-#lightButton {
+#light-button {
     height: 40px;
     width: 55px;
     color: white;
@@ -137,12 +85,12 @@ nav ul {
     margin-left: 40px;
 }
 
-#lightButton:hover {
+#light-button:hover {
     transition: 0.5s;
     color: #BE33FF;
 }
 
-#lightButton:focus {
+#light-button:focus {
     outline: none;
     box-shadow: none;
 }
@@ -179,7 +127,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.contatoLabel {
+.contato-label {
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 50px;
@@ -200,12 +148,12 @@ nav a:hover {
         margin-left: 10px;
     }
 
-.whatsappLabel {
+.whatsapp-label {
     padding-left:10px;
     color: #FFFFFF;
 }
 
-.whatsappInfo {
+.whatsapp-info {
     display: flex;
 }
 
@@ -221,11 +169,11 @@ nav a:hover {
         margin-left: 10px;
     }
 
-.emailLabel {
+.email-label {
     color: #FFFFFF;
 }
 
-.emailInfo {
+.email-info {
     display: flex;
     padding-left: 5px;
 }
@@ -248,7 +196,7 @@ nav a:hover {
             color: #FFFFFF;
         }
 
-.githubInfo {
+.github-info {
     padding-left: 5px;
 }
 
@@ -268,7 +216,7 @@ nav a:hover {
             color: #FFFFFF;
         }
 
-.linkedinInfo{
+.linkedin-info{
     padding-left: 5px;
 }
 
@@ -292,12 +240,12 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-.projetosItems {
+.projetos-itens {
     display: flex;
     justify-content: start;
 }
 
-    .pizzariaLabel a:hover {
+    .pizzaria-label a:hover {
         transition: 0.5s;
         color: #FFFFFF;
     }
@@ -325,30 +273,30 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-.quintoProjeto {
+.quinto-projeto {
     padding-left: 80px;
 }
 
-.quintoProjeto a:hover {
+.quinto-projeto a:hover {
     transition: 0.5s;
     color: #FFFFFF;
 }
 
-.sextoProjeto {
+.sexto-projeto {
     padding-left: 80px;
 }
 
-.sextoProjeto a:hover {
+.sexto-projeto a:hover {
     transition: 0.5s;
     color: #FFFFFF;
 }
 
-.ImagensIndex {
+.imagens-index {
     height: 200px;
     width: 320px;
 }
 
-.linguagensLabel {
+.linguagens-label {
     text-align: center;
     margin-top: 30px;
     color: #FFFFFF;
@@ -358,7 +306,7 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-.voltarButton a {
+.voltar-button a {
     display: inline-flex;
     height: 40px;
     width: 75px;
@@ -373,13 +321,13 @@ nav a:hover {
     margin-top: 40px;
 }
 
-        .voltarButton a:hover {
+        .voltar-button a:hover {
         transition: 0.5s;
         background: #FFFFFF;
         color: #33C7FF;
     }
 
-#toggleButton {
+#toggle-button {
     height: 50px;
     width: 100px;
     align-self: center;
@@ -394,23 +342,23 @@ nav a:hover {
     margin-top: 20px;
 }
 
-    #toggleButton:hover {
+    #toggle-button:hover {
         transition: 0.5s;
         background: #FFFFFF;
         color: #33C7FF;
     }
 
-#toggleButton:focus {
+#toggle-button:focus {
     outline: none;
     box-shadow: none;
 }
 
-.toggleButtonDiv {
+.toggle-button-div {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.imagensLabel {
+.imagens-label {
     text-align: center;
     margin-top: 50px;
     color: #FFFFFF;
@@ -442,16 +390,16 @@ nav a:hover {
     margin-top: 20px;
 }
 
-.githubLink {
+.github-link {
     margin-bottom: 50px;
     text-align: center;
 }
 
-    .githubLink a {
+    .github-link a {
         color: #0CACF0;
     }
 
-        .githubLink a:hover {
+        .github-link a:hover {
             text-decoration: none;
             transition: 0.5s;
             color: #FFFFFF;

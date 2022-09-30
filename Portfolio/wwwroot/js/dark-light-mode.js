@@ -1,5 +1,5 @@
 ﻿//Botão dark/light mode
-let lightToggle = document.querySelector('#lightButton');
+let lightToggle = document.querySelector('#light-button');
 let body = document.querySelector('body');
 var theme;
 
