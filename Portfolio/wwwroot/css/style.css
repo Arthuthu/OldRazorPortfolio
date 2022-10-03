@@ -38,6 +38,10 @@ body.light #texto{
     color: #000000;
 }
 
+body.light #texto a{
+    color: #000000;
+}
+
 body.light #texto a:hover {
     color: #000000;
 }
