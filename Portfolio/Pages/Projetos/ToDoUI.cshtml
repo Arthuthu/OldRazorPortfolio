@@ -32,20 +32,18 @@
 
 <br/>
 <div class="lista-de-imagens">
-	<div class="layout" id="texto">
-		<h3>
-			Mid Term Goals
-		</h3>
-		<img  class="imagens" src="~/img/ToDoUI/Index.png"/>
-	<hr/>
-	</div>
+	<div class="carousel" data-carousel>
+		<button class="carousel-button prev" data-carousel-button="prev">&#8249;</button>
+		<button class="carousel-button next" data-carousel-button="next">&#8250;</button>
+		<ul data-slides>
+			<li class="slide" data-active>
+				<img class="imagens" src="~/img/ToDoUI/completedScreen.png" alt="completo" />
+			</li>
 
-	<div class="layout" id="texto">
-		<h3>
-			Objetivos finalizados
-		</h3>
-		<img  class="imagens" src="~/img/ToDoUI/completedScreen.png"/>
-		<hr/>
+			<li class="slide">
+				<img class="imagens" src="~/img/ToDoUI/Index.png" alt="pagina inicial" />
+			</li>
+		</ul>
 	</div>
 </div>
 
