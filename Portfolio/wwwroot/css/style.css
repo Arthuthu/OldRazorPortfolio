@@ -38,8 +38,8 @@ body.light #texto{
     color: #000000;
 }
 
-body.light #texto a{
-    color: #000000;
+body.light #voltar-button a{
+    color: #FFF;
 }
 
 body.light #texto a:hover {
