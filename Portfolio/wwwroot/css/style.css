@@ -309,7 +309,8 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-.voltar-button a {
+.voltar-button {
+    text-align: center;
     display: inline-flex;
     height: 40px;
     width: 75px;
@@ -318,17 +319,41 @@ nav a:hover {
     text-decoration: none;
     background-image: linear-gradient(#2135DB, #070D39);
     border-radius: 5px;
-    padding: 0 14px;
     border: none;
     align-items: center;
     margin-top: 40px;
+    padding: 0 14px;
 }
 
-        .voltar-button a:hover {
+    .voltar-button:hover {
         transition: 0.5s;
         background: #FFFFFF;
         color: #33C7FF;
+        text-decoration: none;
     }
+
+.proximo-anterior-button {
+    text-align: center;
+    display: inline-flex;
+    height: 40px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(#2135DB, #070D39);
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 14px;
+}
+
+.proximo-anterior-button:hover {
+    transition: 0.5s;
+    background: #FFFFFF;
+    color: #33C7FF;
+    text-decoration: none;
+}
 
 #toggle-button {
     height: 50px;
@@ -478,4 +503,13 @@ nav a:hover {
 
 .carousel-button.next {
     right: 1rem;
+}
+
+.proximo-anterior-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#voltar-button-2 {
+    padding: 0; !important;
 }
