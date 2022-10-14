@@ -304,9 +304,22 @@ nav a:hover {
 }
 
 .conhecimentos {
+    display: flex;
     margin: 2rem 0 0 0;
     text-align: center;
     color: #FFFFFF;
+    justify-content: space-evenly;
+}
+
+.caixa-conhecimentos{
+    border-style: groove;
+    border-color: white;
+    padding: 2rem;
+}
+
+.caixa-conhecimentos p{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .voltar-button {
