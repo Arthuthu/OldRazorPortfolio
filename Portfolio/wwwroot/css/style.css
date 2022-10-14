@@ -38,8 +38,14 @@ body.light #texto{
     color: #000000;
 }
 
-body.light #voltar-button a{
+body.light #voltar-button {
     color: #FFF;
+    transition: 1s ease-out;
+}
+
+body.light #voltar-button:hover {
+    background-color: white;
+    color: #33C7FF;
 }
 
 body.light #texto a:hover {
@@ -521,8 +527,4 @@ nav a:hover {
 .proximo-anterior-div{
     display: flex;
     justify-content: space-between;
-}
-
-#voltar-button-2 {
-    padding: 0; !important;
 }
