@@ -1,23 +1,21 @@
 ﻿@page
-@model Portfolio.Pages.Projetos.PizzariaModel
+@model Portfolio.Pages.Projetos.PizzariaNETCoreModel
 @{
 }
 
 <div class="layout" id="texto">
 	<h3>
-		Pizzaria (.NET Framework)
+		Pizzaria (.NET Core)
 	</h3>
 </div>
 
 <div class="descricao" id="texto">
 	<h3>
-		Neste projeto foi feito um site de uma pizzaria onde se vende pizzas e esfihas. 
-		No site o admin consegue realizar as operações do CRUD tanto para uma lista de pizzas quanto para esfihas
-		onde a data é salva no SQL Server.
+		Esse site pizzaria foi feito em .NET Core aplicando principios SOLID, Dry, Kiss, Yagni.
+		Com o site é possivel fazer um CRUD no cardápio, no código foi utilizado logging e testes unitários para simular uma aplicação real.
 	</h3>
 </div>
 <hr />
-
 
 <div class="imagens-label" id="texto">
 	<h2>
@@ -30,37 +28,37 @@
 		Mostrar
 	</button>
 </div>
+<br />
 
-<br/>
 <div class="lista-de-imagens">
 	<div class="carousel" data-carousel>
 		<button class="carousel-button prev" data-carousel-button="prev">&#8249;</button>
 		<button class="carousel-button next" data-carousel-button="next">&#8250;</button>
 		<ul data-slides>
 			<li class="slide" data-active>
-				<img class="imagens" src="~/img/pizzaria(.netframework)/index.png" alt="pagina-inicial"/>
+				<img src="~/img/pizzaria(.netcore)/index.png" />
 			</li>
 
 			<li class="slide">
-				<img class="imagens" src="~/img/pizzaria(.netframework)/List.png" alt="lista" />
+				<img src="~/img/pizzaria(.netcore)/index(2).png" />
 			</li>
 
 			<li class="slide">
-				<img class="imagens" src="~/img/pizzaria(.netframework)/Create.png" alt="criar" />
+				<img src="~/img/pizzaria(.netcore)/cardapioindex.png" />
 			</li>
 
 			<li class="slide">
-				<img class="imagens" src="~/img/pizzaria(.netframework)/Detalhes.png" alt="detalhes" />
+				<img src="~/img/pizzaria(.netcore)/update.png" />
 			</li>
 
 			<li class="slide">
-				<img class="imagens" src="~/img/pizzaria(.netframework)/Deletar.png" alt="deletar" />
+				<img src="~/img/pizzaria(.netcore)/delete.png" />
 			</li>
 		</ul>
 	</div>
 </div>
+<br />
 
-<br/>
 <div>
 	<div class="layout" id="texto">
 		<h3>
@@ -71,7 +69,7 @@
 	<div class="tecnologias" id="texto">
 		<div>
 			<h5>
-				ASP.NET MVC (.Net Framework)
+				ASP.NET Razor Pages (.NETCore)
 			</h5>
 		</div>
 
@@ -98,13 +96,18 @@
 				Dapper
 			</h5>
 		</div>
+
+		<div>
+			<h5>
+				XUnit
+			</h5>
+		</div>
 	</div>
 </div>
 <hr />
 
-<br/>
-<div class="github-link"id="texto">
-	<a href="https://github.com/Arthuthu/Topicos2">
+<div class="github-link" id="texto">
+	<a href="https://github.com/Arthuthu/PizzariaSite">
 		<h1>
 			Link Github
 		</h1>
@@ -113,10 +116,10 @@
 
 <div class="proximo-anterior-div">
 	<div>
-		<a asp-page="/Projetos/PizzariaNETCore" class="proximo-anterior-button" id="voltar-button">Anterior</a>
+		<a asp-page="/Projetos/Demos" class="proximo-anterior-button" id="voltar-button">Anterior</a>
 	</div>
 	<div>
-		<a asp-page="/Projetos/ArtGStore" class="proximo-anterior-button" id="voltar-button">Próximo</a>
+		<a asp-page="/Projetos/Pizzaria" class="proximo-anterior-button" id="voltar-button">Próximo</a>
 	</div>
 </div>
 
@@ -125,4 +128,3 @@
 		<a asp-page="/Index" class="voltar-button" id="voltar-button">Voltar</a>
 	</div>
 </div>
-

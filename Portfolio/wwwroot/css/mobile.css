@@ -46,6 +46,10 @@ nav ul li a {
 
 /*Index*/
 
+.conhecimentos {
+    flex-direction: column;
+}
+
 .conhecimentos ul {
     padding: 0;
 }
